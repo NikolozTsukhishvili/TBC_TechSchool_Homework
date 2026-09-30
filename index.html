@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Full Stack დეველოპმენტი ხელოვნური ინტელექტის დახმარებით — პროგრამირების კურსი მოზარდებისთვის ნულიდან.">
+  <title>Full Stack დეველოპმენტი AI-ის დახმარებით</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">გადასვლა მთავარ შიგთავსზე</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo" aria-label="მთავარი გვერდი">
+        <span class="logo__mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="logo__text">Code<span class="accent">AI</span></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="მენიუს გახსნა" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="nav" id="navMenu" aria-label="მთავარი ნავიგაცია">
+        <ul class="nav__list">
+          <li><a href="#hero" class="nav__link">მთავარი</a></li>
+          <li><a href="#about" class="nav__link">კურსის შესახებ</a></li>
+          <li><a href="#features" class="nav__link">უპირატესობები</a></li>
+          <li><a href="#contact" class="nav__link">კონტაქტი</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="badge">🚀 ახალი ნაკადი იწყება მალე</p>
+          <h1 class="hero__title" id="hero-title">
+            ისწავლე <span class="gradient-text">Full Stack</span> დეველოპმენტი
+            ხელოვნური ინტელექტის დახმარებით
+          </h1>
+          <p class="hero__text">
+            კურსი მოზარდებისთვის, რომლებიც პროგრამირებას ნულიდან იწყებენ.
+            შექმენი საკუთარი ვებსაიტები და აპლიკაციები AI ინსტრუმენტებთან ერთად.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">დარეგისტრირდი</a>
+            <a href="#about" class="btn btn--ghost">გაიგე მეტი</a>
+          </div>
+          <ul class="hero__stats">
+            <li><strong>0</strong><span>საჭირო გამოცდილება</span></li>
+            <li><strong>12</strong><span>კვირა</span></li>
+            <li><strong>5+</strong><span>რეალური პროექტი</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-window__bar">
+              <span></span><span></span><span></span>
+            </div>
+            <pre class="code-window__body"><code><span class="c-key">const</span> student = {
+  name: <span class="c-str">"შენ"</span>,
+  experience: <span class="c-num">0</span>,
+  helper: <span class="c-str">"AI"</span>,
+};
+
+<span class="c-key">function</span> <span class="c-fn">learn</span>(skill) {
+  <span class="c-key">return</span> <span class="c-str">`ვიცი ${skill}! 🎉`</span>;
+}
+
+<span class="c-fn">learn</span>(<span class="c-str">"Full Stack"</span>);</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__image reveal" aria-hidden="true">
+          <div class="about__circle">
+            <span>🤖</span>
+          </div>
+        </div>
+
+        <div class="about__content reveal">
+          <p class="section__eyebrow">კურსის შესახებ</p>
+          <h2 class="section__title" id="about-title">პროგრამირება ყველასთვის — ნულიდან</h2>
+          <p>
+            ეს კურსი შექმნილია იმ მოზარდებისთვის, ვისაც კოდი არასდროს დაუწერია.
+            ნაბიჯ-ნაბიჯ გაეცნობი ვებ-დეველოპმენტის საფუძვლებს: HTML, CSS, JavaScript,
+            სერვერული მხარე და მონაცემთა ბაზები.
+          </p>
+          <p>
+            ყველაზე მთავარი — ისწავლი, როგორ გამოიყენო ხელოვნური ინტელექტი როგორც
+            პირადი ასისტენტი: სწორად დაწერილი Prompt-ებით შექმნი, გამართავ და
+            გააუმჯობესებ საკუთარ კოდს.
+          </p>
+          <ul class="checklist">
+            <li>Frontend: HTML, CSS, JavaScript</li>
+            <li>Backend: სერვერი და API</li>
+            <li>მონაცემთა ბაზები</li>
+            <li>AI აგენტებთან მუშაობა და Prompt Engineering</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__eyebrow">რატომ ჩვენ?</p>
+          <h2 class="section__title" id="features-title">რას მიიღებ კურსზე</h2>
+          <p class="section__subtitle">სწავლა, რომელიც საინტერესოა, პრაქტიკულია და მომავალზეა ორიენტირებული.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">🧠</div>
+            <h3 class="card__title">AI ასისტენტი</h3>
+            <p class="card__text">
+              ისწავლე AI აგენტებთან მუშაობა: როგორ დაწერო ეფექტური Prompt და
+              მიიღო სუფთა, სემანტიკური კოდი.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">🛠️</div>
+            <h3 class="card__title">რეალური პროექტები</h3>
+            <p class="card__text">
+              ყოველ კვირას შექმნი რაღაც ახალს — ვებსაიტებიდან დაწყებული,
+              სრულფასოვანი აპლიკაციებით დამთავრებული.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">👩‍🏫</div>
+            <h3 class="card__title">მენტორის მხარდაჭერა</h3>
+            <p class="card__text">
+              გამოცდილი მენტორები ყოველთვის გვერდით არიან — კითხვებზე პასუხი,
+              კოდის განხილვა და პერსონალური რჩევები.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__inner">
+        <div class="contact__info reveal">
+          <p class="section__eyebrow">კონტაქტი</p>
+          <h2 class="section__title" id="contact-title">მზად ხარ დასაწყებად?</h2>
+          <p>შეავსე ფორმა და ჩვენ მალე დაგიკავშირდებით კურსის დეტალებთან დაკავშირებით.</p>
+          <address class="contact__list">
+            <p><span aria-hidden="true">📧</span> <a href="mailto:info@codeai.ge">info@codeai.ge</a></p>
+            <p><span aria-hidden="true">📞</span> <a href="tel:+995322000000">+995 32 200 00 00</a></p>
+            <p><span aria-hidden="true">📍</span> თბილისი, საქართველო</p>
+          </address>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <div class="form__group">
+            <label for="name">სახელი</label>
+            <input type="text" id="name" name="name" placeholder="შენი სახელი" autocomplete="name" required>
+            <small class="form__error" aria-live="polite"></small>
+          </div>
+
+          <div class="form__group">
+            <label for="email">ელ-ფოსტა</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" autocomplete="email" required>
+            <small class="form__error" aria-live="polite"></small>
+          </div>
+
+          <div class="form__group">
+            <label for="message">შეტყობინება</label>
+            <textarea id="message" name="message" rows="5" placeholder="დაგვიწერე შენი კითხვა..." required></textarea>
+            <small class="form__error" aria-live="polite"></small>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">გაგზავნა</button>
+          <p class="form__success" id="formSuccess" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> CodeAI. ყველა უფლება დაცულია.</p>
+      <a href="#hero" class="footer__top">ზემოთ ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
